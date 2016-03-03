@@ -1,0 +1,8 @@
+{
+  "name": "checkbox",
+  "version": "1.0.0",
+  "public": {
+    "reader_template": "./checkbox.jade",
+    "reader_style": "./checkbox.styl"
+  }
+}

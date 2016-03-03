@@ -1,0 +1,29 @@
+extends ../layout/layout
+block styles
+    link(rel="stylesheet" href=style)
+block question
+    | Выберите, что Вам больше подходит:
+block content
+    .container-fluid
+        .row
+            .col-sm-4.col-sm-offset-4.module__checkbox
+                .checkbox
+                    label
+                        input(type="checkbox" value="")
+                        | Рабочий
+                .checkbox
+                    label
+                        input(type="checkbox" value="")
+                        | Специалист
+                .checkbox
+                    label
+                        input(type="checkbox" value="")
+                        | Предпрениматель
+                .checkbox
+                    label
+                        input(type="checkbox" value="")
+                        | Менеджер
+                .checkbox
+                    label
+                        input(type="checkbox" value="")
+                        | Студент
