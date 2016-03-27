@@ -1,0 +1,11 @@
+span(decorator="block:question")
+    | {{ question }}
+.container-fluid(decorator="block:content")
+    .row
+        .col-sm-4.col-sm-offset-4.module__checkbox
+            | {{ #items: item }}
+            .checkbox
+                label
+                    input(type="checkbox" checked="{{ value }}")
+                    | {{ title }}
+            | {{ /items }}
